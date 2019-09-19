@@ -25,8 +25,8 @@ let person2 = {
   favoriteNumber: 0, //security feature
   haircolor: null, // explore: undefined, null; origonally "none"
   // debug with typeof
-  male: false,
-  female: true,
+  male: true,
+  female: false,
   other: false,
   country:undefined,
   sport:undefined,
