@@ -20,8 +20,48 @@ function simpleOperators(numberA,numberB){
 
 
 }
-skip count by ____ for ______ times starting at _____
-function skipCpinting()
+function skipCpinting(interval, times, startingNumber)
+{
+
+for (let i = 1; i<= times; i++){
+
+
+
+
+
+    startingNumber = startingNumber + interval
+    console.log(startingNumber);
+
+
+
+  }
+}
+
+function howManyTimes(numberStart, numberEnd, skipCount){
+
+  while (numberStart< numberEnd){
+    numberStart += skipCount;
+    console.log(numberStart);
+
+
+  }
+}
+
+
+function LooseEquality (firstOperand, secondOperand){
+console.log(firstOperand == secondOperand);
+
+
+
+
+
+}
+
+function strictEquality(firstOperand, secondOperand) {
+  console.log(firstOperand === secondOperand);
+
+}
+
 
 let number=[4,7,13,99,0,100,5,1,'1'];
 
@@ -31,3 +71,20 @@ simpleOperators(number[0], number[2]);
 simpleOperators(number[0], number[3]);
 simpleOperators(number[0], number[4]);
 simpleOperators(number[0], number[5]);
+
+
+skipCpinting(number[0], number[6], number[1]);
+
+
+
+
+skipCpinting(number[0], number[6], number[1]);
+skipCpinting(number[5], number[2], number[2]);
+
+howManyTimes(number[0], number[5], number[1]);
+
+LooseEquality (number[6], number[8]);
+
+
+
+strictEquality (number[7], number[8]);
