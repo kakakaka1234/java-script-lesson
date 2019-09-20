@@ -62,6 +62,14 @@ function strictEquality(firstOperand, secondOperand) {
 
 }
 
+function customerType (points){
+return type = points >100 ? 'gold': 'silver'
+
+
+
+
+}
+
 
 let number=[4,7,13,99,0,100,5,1,'1'];
 
@@ -88,3 +96,5 @@ LooseEquality (number[6], number[8]);
 
 
 strictEquality (number[7], number[8]);
+
+console.log(customerType (number[3]));
