@@ -31,24 +31,12 @@ let person2 = {
   country:undefined,
   sport:undefined,
 };
-console.log(person1.firstName);
-console.log(person1.lastName);
-console.log(person1.age);
-console.log(person1.favoriteNumber);
-console.log(person1.haircolor);
-console.log(person1.male);
-console.log(person1.female);
-console.log(person1.other);
-console.log(person1.country);
-console.log(person1.sport);
+console.log(person1);
+console.log(person2);
 
-console.log(person2.firstName);
-console.log(person2.lastName);
-console.log(person2.age);
-console.log(person2.favoriteNumber);
-console.log(person2.haircolor);
-console.log(person2.male);
-console.log(person2.female);
-console.log(person2.other);
-console.log(person2.country);
-console.log(person2.sport);
+
+
+
+let swap = person1.lastName;
+person1.lastName= person2.lastName;
+console.log(person1);
