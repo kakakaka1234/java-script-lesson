@@ -39,4 +39,6 @@ console.log(person2);
 
 let swap = person1.lastName;
 person1.lastName= person2.lastName;
+person2.lastName= swap
 console.log(person1);
+console.log(person2);
