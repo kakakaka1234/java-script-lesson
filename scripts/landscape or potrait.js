@@ -20,6 +20,33 @@ else {
 
 
 }
+function geometry (width, height) { //Notice these parameters are local and do not mix with "number" variable
+  if (width == height) return 'Square'; //must be first, return will not allow rest of code to run
+  return (width > height) ? 'Landscape' : 'Portrait'; //ternary operator example
+  //Seems odd, the inequality, here, is reading the opposite
+}
+
+function checkboxes() {
+  let checkbox1, checkbox2, checkbox3;
+  checkbox1 = document.getElementById('Checkbox1').checked;
+  checkbox2 = document.getElementById('Checkbox2').checked;
+  checkbox3 = document.getElementById('Checkbox3').checked;
+  if ( checkbox1 == true ) {
+    document.getElementById('checkbox1_answer').innerHTML = "Landscape";
+  } else {
+    document.getElementById('checkbox1_answer').innerHTML = "Answer?";
+  }
+  if ( checkbox2 == true ) {
+    document.getElementById('checkbox2_answer').innerHTML = "Portrait";
+  } else {
+    document.getElementById('checkbox2_answer').innerHTML = "Answer?";
+  }
+  if ( checkbox3 == true ) {
+    document.getElementById('checkbox3_answer').innerHTML = "Square";
+  } else {
+    document.getElementById('checkbox3_answer').innerHTML = "Answer?";
+  }
+}
 
 
 function main() {
@@ -41,7 +68,7 @@ function main() {
     } else {
       console.log("the display geometry is",geometry(firstNumber,secondNumber));
       document.getElementByID("answer").innerHTML ="This display is" + geometry (firstNumber,secondNumber);
-      
+
     }
 
 
