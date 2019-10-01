@@ -56,7 +56,7 @@ function main() {
   if (stop == true) {
     document.getElementById('answer').innerHTML = "Restart the example, a width or height needs to be a number."
   } else {
-    console.log("The display geometry is", geometry (firstNumber, secondNumber) );
+    console.log("The display is", geometry (firstNumber, secondNumber) );
     document.getElementById('answer').innerHTML = "This display is " + geometry (firstNumber, secondNumber);
   }
 
