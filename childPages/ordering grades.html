@@ -14,15 +14,59 @@
   </head>
   <body>
 
-    <header><h1>ordering grades</h1></header>
+    <header><h1>Ordering Grades Assignmnet</h1></header>
     <nav></nav>
-    <aside></aside>
-    <section><article></<article></article></section>
+
+    <section>
+      <article>
+        <form action="x.html" method="post" onsubmit="event.preventDefault();">
+
+        <p>&nbsp;</p>
+
+        <a><strong>Enter five random grades below, to be ordered smallest to largest ...</strong></a>
+
+        <p>
+          <label for="textfield">Grade #1: </label>
+          <input name="textfield1" type="text" id="textfield1">
+            <a id="validityTest1">See the Alert</a>
+        </p>
+
+        <p>
+          <label for="textfield2">Grade #2: </label>
+          <input name="textfield2" type="text" id="textfield2">
+            <a id="validityTest2">See the Alert</a>
+        </p>
+
+        <p>
+          <label for="textfield">Grade #3: </label>
+          <input name="textfield3" type="text" id="textfield3">
+            <a id="validityTest3">See the Alert</a>
+        </p>
+        <p>
+          <label for="textfield">Grade #4: </label>
+          <input name="textfield4" type="text" id="textfield4">
+            <a id="validityTest4">See the Alert</a>
+        </p>
+        <p>
+          <label for="textfield">Grade #5: </label>
+          <input name="textfield5" type="text" id="textfield5">
+            <a id="validityTest5">See the Alert</a>
+        </p>
+
+        <!-- Submit Button -->
+        <br>
+        <button type="button" onclick="main()">Submit</button>
+        <br>
+        <h3><a id="answer">What is the answer?</a></h3>
+        <br><br>
+      </article>
+    </section>
+
+    <br><br>
 
     <script src="../scripts/ordering grades.js"></script>
 
   </body>
-
   <footer>
     <blockquote cite="https://www.goodreads.com/quotes/tag/happiness" !-- Date Accessed: 09112019 --!>
       <p><strong> Don't cry because it's over, smile because it happened. </strong>  <em><a href="https://www.goodreads.com/quotes/tag/happiness" target="_blank"> Dr.Seuss</a>  </em></p>
