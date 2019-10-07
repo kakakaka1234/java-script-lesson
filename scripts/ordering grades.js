@@ -99,7 +99,7 @@ function main() {
     document.getElementById('answer').innerHTML = "Restart the example, a width or height needs to be a number."
   } else {
     console.log("The smallest to largest order is ", orderingFive (firstNumber, secondNumber, thirdNumber, fourthNumber, fifthNumber) );
-    document.getElementById('answer').innerHTML = "The numbers " + firstNumber + ", " + secondNumber + ", " + thirdNumber + ", " + fourthNumber + ", " + fifthNumber + " in order from smallest to largets is ... \n" +
+    document.getElementById('answer').innerHTML = "The numbers " + firstNumber + ", " + secondNumber + ", " + thirdNumber + ", " + fourthNumber + ", " + fifthNumber + " in order from smallest to largest is ... \n" +
     orderingFive(firstNumber, secondNumber, thirdNumber, fourthNumber,fifthNumber);
   }
 }
