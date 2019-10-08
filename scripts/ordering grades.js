@@ -19,7 +19,7 @@ function orderingFive (first, second, third, fourth, fifth) { //Notice these par
   //If numbers out of order
   //Use desending sequence to illustrate while loop ... if statements fail without WHILE since double switch required
   //For example: 70, 60, 50
-  while (first > second || second > third) {
+  while (first > second || second > third || third > fourth || fourth > fifth ) {
     if (first > second) {
       memory1 = second;
       second = first;
