@@ -13,15 +13,42 @@
     <title>modulus</title>
   </head>
   <body>
+      <header><h1>Assignment</h1></header>
+      <nav></nav>
+      <aside></aside>
 
-    <header><h1>modulus</h1></header>
-    <nav></nav>
-    <aside></aside>
-    <section><article></<article></article></section>
+      <section>
+        <article>
+          <!--  -->
+          <form action="x.html" method="post" onsubmit="event.preventDefault();">
+          <!-- Ensures this FORM doesn't work with PHP or other server side scripting languages-->
+        <p>&nbsp;</p>
+        <!-- See: https://www.w3schools.com/html/html_entities.asp-->
+        <!-- Non-breaking real space, adds real space to webpage that is not eliminated by browser (hard coded space)-->
 
-    <script src="../scripts/modulus.js"></script>
+        <a><strong>Enter the values  ...</strong></a>
+        <p>
+          <label for="textfield">Name: </label>
+          <input name="textfield1" type="text" id="textfield1">
+          <a id="validityTest1">"See the Alert", Inner HTML</a>
+        </p>
 
-  </body>
+        <p>
+          <label for="textfield2">Name: </label>
+          <input name="textfield2" type="text" id="textfield2">
+          <a id="validityTest2">See the Alert</a>
+        </p>
+
+        <!-- Submit Button -->
+        <br>
+        <button type="button" onclick="main()">Submit</button>
+        <br>
+        <h3>Explanation, then, <a id="answer">Inner HTML</a></h3>
+        <br><br><br>
+
+      <script src="../scripts/modulus.js"></script>
+
+    </body>
 
   <footer>
     <blockquote cite="https://www.goodreads.com/quotes/tag/happiness" !-- Date Accessed: 09112019 --!>
