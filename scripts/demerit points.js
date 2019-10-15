@@ -40,27 +40,6 @@ function demeritCalculation (speedLimit, speed) { //Notice these parameters are 
   return 'Check the Algorithm for errors';
 }
 
-function checkboxes() {
-  let checkbox1, checkbox2, checkbox3;
-  checkbox1 = document.getElementById('Checkbox1').checked;
-  checkbox2 = document.getElementById('Checkbox2').checked;
-  checkbox3 = document.getElementById('Checkbox3').checked;
-  if ( checkbox1 == true ) {
-    document.getElementById('checkbox1_answer').innerHTML = "Speed?";
-  } else {
-    document.getElementById('checkbox1_answer').innerHTML = "Answer?";
-  }
-  if ( checkbox2 == true ) {
-    document.getElementById('checkbox2_answer').innerHTML = "Speed?";
-  } else {
-    document.getElementById('checkbox2_answer').innerHTML = "Answer?";
-  }
-  if ( checkbox3 == true ) {
-    document.getElementById('checkbox3_answer').innerHTML = "Speed?";
-  } else {
-    document.getElementById('checkbox3_answer').innerHTML = "Answer?";
-  }
-}
 
 function main() {
   //console.log("It works");
