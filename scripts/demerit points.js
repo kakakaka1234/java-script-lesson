@@ -33,13 +33,17 @@ function demeritCalculation (speedLimit, speed) { //Notice these parameters are 
   if (speed < speedLimit + 12*5) return '11 demerit point';
   if (speed < speedLimit + 13*5) return '12 demerit point';
   if (speed < speedLimit + 14*5) return '13 demerit point';
-  //Note: to create WHILE Statement, look for number patterns Above
-  //Note: to create FOR Statement, must divide to calculate maximum demerit points (x-1)
-  //Notice only inequlaity has changed below
-  if (speed >= speedLimit + 14*5) return 'You have doubled the speed limit, your license is taken away';
-  return 'Check the Algorithm for errors';
+
+
+
+
 }
 
+else if (speed >= speedLimit + 14*5) return 'die';
+
+
+
+}
 
 function main() {
   //console.log("It works");
